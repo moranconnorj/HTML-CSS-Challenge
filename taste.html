@@ -2,32 +2,36 @@
 <html>
   <head>
   	<title>TASTE</title>
-  	<link href=".css" rel="stylesheet" type="text/css" />
+  	<link href="tastecss.css" rel="stylesheet" type="css3" />
   </head>
 
 
   <body>
-  	
-  	<div id="header">
-  	  <div id="pagetitle">TASTE</div>
-  	  <div id="nav">
+
+  	<div class="header">
+      <div class="topline">
+  	   <div class="pagetitle">TASTE</div>
+  	   <div class="nav">
   	  	<a href="taste.html">Home</a>
   	  	<a href="blog.html">Blog</a>
   	  	<a href="signin.html">Sign In</a>
-  	  <div id="headline">Keep track of the things you like and the things you don't</div>	
+        </div>
+      </div>
+  	  <div class="headline">Keep track of the things you like and the things you don't</div>	
   	</div>
 
-  	<div id="bulk">Your tasting notes will not be saved unless you first <a href="signin.html">sign in</a>.</div>
+  	<div class="bulk">Your tasting notes will not be saved unless you first <a href="signin.html">sign in</a>.</div>
 
 
-  	<div id="inputbox">
-  		<div id="inputheader">ADD A NEW ENTRY</div>
+  	<div class="inputheader">ADD A NEW ENTRY</div>
 
-  		<div id="itemname">Item Name: <input type="text" name="iname" value="Tequila Esperanto"></div>
+  	<div class="inputbox">
 
-  		<div id="typename">Type: <input type="text" name"tname" value="Reposado"></div>
+  		<div class="itemname">Item Name: <input type="text" name="iname" value="Tequila Esperanto"></div>
 
-  		<div id="rating">
+  		<div class="typename">Type: <input type="text" name"tname" value="Reposado"></div>
+
+  		<div class="rating">
   		  Rating: 
   		  	<select>
   		  	  <option value="0">0</option>
@@ -44,13 +48,13 @@
   		  	</select>
   		</div>
 
-  		<div id="notes">
+  		<div class="notes">
   		  Notes: 
   		    <textarea rows="5" cols="20">Lots of agave. Hints of orange peel and lime. excellent for sipping
   		    </textarea>
   		</div>
 
-  		<div id="submit"><input type="submit" value="Submit"></div>
+  		<div class="submit"><input type="submit" value="Submit"></div>
   	</div>
 
 
