@@ -59,16 +59,32 @@ body {
 
 .inputheader {
 	color:#FFFFFF;
-	width:auto;
-	margin:2% 50% 0% 3%;
+	min-width:300px;
+	margin:2% 75% 0% 3%;
 	text-align: left:;
 	background-color:#FF8C68;
 } 
 
 .inputbox {
-	margin:0% 50% 15% 3%;
-	width:auto;
+	margin:0% 75% 15% 3%;
+	padding:1% 0%;
+	min-width:300px;
 	color:#A9A9A9;
-	text-align: left;
 	background-color:#FFFFFF;
+
+}
+
+.inpname {
+	display: inline;
+	width:270px;
+	margin:2%;
+	white-space: nowrap;
+	border: dotted
+}
+
+.inpbox {
+	display: inline;
+	margin: 0% ;
+	text-align: left;
+
 }
